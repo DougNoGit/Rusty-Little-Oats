@@ -34,7 +34,7 @@ fn main()
     {
         server.chain.link(FromFn::new(come_again));
     }
-    server.listen(Ipv4Addr(127, 0, 0, 1), 3000);
+    server.listen(Ipv4Addr(0, 0, 0, 0), 3000);
     }
 }
 
